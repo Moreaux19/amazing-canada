@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .container_m {
+    padding-left: 3.1vw;
+    padding-right: 3.1vw;
+  }
+}
