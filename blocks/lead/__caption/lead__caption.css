@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .lead__caption {
     max-width: 49.3vw;
     font-weight: 400;

@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro__lists {
     padding-top: 10.6vw;
   }
