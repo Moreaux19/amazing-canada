@@ -1,0 +1,14 @@
+.place {
+  margin: 0;
+  padding-top: 7.1vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  gap: 3.5vw;
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
