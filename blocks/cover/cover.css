@@ -1,0 +1,23 @@
+.cover {
+  margin: 0 auto;
+  margin-top: 7.1vw;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin-top: 8.9vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 8.9vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-top: 8.9vw;
+  }
+}
