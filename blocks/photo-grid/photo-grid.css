@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    max-width: 90.6;
+    max-width: 90.6vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 1.3vw;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: 93.7;
+    max-width: 93.7vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 2vw;

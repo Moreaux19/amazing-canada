@@ -4,11 +4,24 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, minmax(min-content, max-content));
-  gap: 3.5vw;
+  gap: 3.7vw 3.1vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 4.6vw 3.1vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 6.2vw 3.6vw;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .place {
     grid-template-columns: 1fr;
+    gap: 10vw;
   }
 }
