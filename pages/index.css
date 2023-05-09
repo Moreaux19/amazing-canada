@@ -6,13 +6,13 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/container/container_s.css);
+@import url(../blocks/container/container-s.css);
 
-@import url(../blocks/container/container_m.css);
+@import url(../blocks/container/container-m.css);
 
-@import url(../blocks/container/container_l.css);
+@import url(../blocks/container/container-l.css);
 
-@import url(../blocks/container/container_xl.css);
+@import url(../blocks/container/container-xl.css);
 
 @import url(../blocks/header/header.css);
 
