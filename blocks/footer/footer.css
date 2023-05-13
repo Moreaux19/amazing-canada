@@ -21,9 +21,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .footer {
-    max-height: 116.8vw;
     flex-direction: column;
     padding-bottom: 7.5vw;
   }

@@ -1,5 +1,5 @@
 @media screen and (max-width: 425px) {
-  .container-s {
+  .page__container_s {
     padding-left: 5vw;
     padding-right: 5vw;
   }

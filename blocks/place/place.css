@@ -1,9 +1,9 @@
 .place {
   margin: 0;
-  padding-top: 7.1vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-auto-flow: row;
   gap: 3.7vw 3.1vw;
 }
 
@@ -22,6 +22,6 @@
 @media screen and (max-width: 425px) {
   .place {
     grid-template-columns: 1fr;
-    gap: 10vw;
+    gap: 15.6vw;
   }
 }

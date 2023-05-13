@@ -3,4 +3,11 @@
   max-width: 92.5vw;
   display: flex;
   justify-content: space-between;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding-top: 16px;
+  }
 }
