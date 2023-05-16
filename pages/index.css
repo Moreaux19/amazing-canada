@@ -6,13 +6,13 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/page/__container/_xl/page__container_xl.css);
+@import url(../blocks/page/page_container_xl/page_container_xl.css);
 
-@import url(../blocks/page/__container/_l/page__container_l.css);
+@import url(../blocks/page/page_container_l/page_container_l.css);
 
-@import url(../blocks/page/__container/_m/page__container_m.css);
+@import url(../blocks/page/page_container_m/page_container_m.css);
 
-@import url(../blocks/page/__container/_s/page__container_s.css);
+@import url(../blocks/page/page_container_s/page_container_s.css);
 
 @import url(../blocks/header/header.css);
 
@@ -42,7 +42,7 @@
 
 @import url(../blocks/intro/__lists/intro__lists.css);
 
-@import url(../blocks/intro/__list/_span-accent/intro__list_span-accent.css);
+@import url(../blocks/intro/__list/_span/intro__list_span.css);
 
 @import url(../blocks/intro/__list/intro__list.css);
 
