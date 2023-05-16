@@ -8,8 +8,8 @@
   width: 37.8vw;
 }
 
-.place__paragraph:last-child {
-  padding-top: 2vw;
+.place__paragraph:first-child {
+  padding-bottom: 2vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 460px) {
   .place__paragraph {
     width: 90vw;
   }
