@@ -2,17 +2,17 @@
 
 @import url(../vendor/fonts/inter.css);
 
+@import url(../blocks/container-xl/container-xl.css);
+
+@import url(../blocks/container-l/container-l.css);
+
+@import url(../blocks/container-m/container-m.css);
+
+@import url(../blocks/container-s/container-s.css);
+
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/page/page.css);
-
-@import url(../blocks/page/page_container_xl/page_container_xl.css);
-
-@import url(../blocks/page/page_container_l/page_container_l.css);
-
-@import url(../blocks/page/page_container_m/page_container_m.css);
-
-@import url(../blocks/page/page_container_s/page_container_s.css);
 
 @import url(../blocks/header/header.css);
 
