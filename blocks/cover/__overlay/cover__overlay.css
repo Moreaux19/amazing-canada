@@ -3,11 +3,32 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  opacity: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 92.5vw;
   min-height: calc(100vw / 1.62);
   position: relative;
   z-index: 1;
+  text-decoration: none;
+}
+
+.cover__overlay::before {
+  content: '';
+  background-color: rgba(42, 44, 47, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  text-decoration: none;
+  z-index: 1;
+  transition: opacity 0.3s linear;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 1180px) {
