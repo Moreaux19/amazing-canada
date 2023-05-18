@@ -1,24 +1,21 @@
 .places {
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 40px;
   display: grid;
   grid-template-rows: repeat(5, minmax(min-content, max-content));
-  gap: 6.2vw;
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    gap: 7.8vw;
-  }
+  gap: 80px;
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    gap: 7.8vw;
+    padding-top: 88px;
+    gap: 72px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 460px) {
   .places {
-    gap: 7.8vw;
+    padding-top: 64px;
+    gap: 50px;
   }
 }

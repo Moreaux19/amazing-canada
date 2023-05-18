@@ -1,23 +1,6 @@
 .intro__lists {
   margin: 0;
+  max-width: 690px;
   padding-left: 0;
-  padding-top: 2.3vw;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__lists {
-    padding-top: 3.2vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro__lists {
-    padding-top: 4.2vw;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro__lists {
-    padding-top: 10.6vw;
-  }
+  padding-top: 33px;
 }

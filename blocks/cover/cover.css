@@ -1,11 +1,5 @@
 .cover {
-  margin: 0 auto;
-  margin-top: 7.1vw;
+  max-width: 100%;
+  margin: 146px auto 0;
   position: relative;
-}
-
-@media screen and (max-width: 1180px) {
-  .cover {
-    margin-top: 8.9vw;
-  }
 }

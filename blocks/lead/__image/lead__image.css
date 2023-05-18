@@ -1,12 +1,12 @@
 .lead__image {
   margin: 0 auto;
-  padding-top: 5vw;
-  max-width: 76.8vw;
+  display: block;
+  max-width: calc(100% - 2 * 148px);
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    max-width: 90.3vw;
+    max-width: calc(100% - 2 * 48px);
   }
 }
 

@@ -1,22 +1,10 @@
 .lead {
-  margin: 0;
-  padding-top: 4.4vw;
+  margin: 0 auto;
+  padding-top: 56px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    padding-top: 4.6vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    padding-top: 6.2vw;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead {
-    padding-top: 16.2vw;
+    padding-top: 48px;
   }
 }
