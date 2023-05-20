@@ -1,5 +1,5 @@
 .place {
-  margin: 0;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-auto-flow: row;
@@ -21,9 +21,9 @@
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 640px) {
   .place {
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     gap: 32px;
   }
 }
